@@ -13,12 +13,19 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '/logo-transparent-svg.svg';
 import { useSelector } from 'react-redux';
-const pages = [ 'الاستقبال','الخدمات'];
-const settings = ['الملف الشخصي', 'إعدادات', 'تسجيل الدخول/الخروج'];
 
+//---------------------------------------------------------------------------------------------------------------
+const isObjectEmpty = (nonObject) => {
+  let objectName= new Object(nonObject);
+  return (
+    objectName &&
+    Object.keys(objectName).length === 0 
+  );}
+  // -------------------------------------------------------------------------------------------------------------
 function ResponsiveAppBar() {
   const PhotoLink=useSelector(state=>state.UserInfo.image_url);
-
+  const pages = [ 'الاستقبال','الخدمات'];
+  const settings =isObjectEmpty(PhotoLink)?['تسجيل الدخول/الخروج']: ['الملف الشخصي', 'إعدادات', 'تسجيل الدخول/الخروج'];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 

@@ -15,7 +15,6 @@ import { useState } from 'react';
 import CustomAlert  from './alert'; 
 import { useDispatch } from 'react-redux';
 import { GetUserProfile } from '../Redux store/actions';
-import store from '../Redux store/Store'
 const theme = createTheme();
 
 export default function SignInPage() {

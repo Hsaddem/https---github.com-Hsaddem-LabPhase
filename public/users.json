@@ -9,22 +9,26 @@
       "city":"sousse",
       "Phone":"95444444",
       "FacebookProfile":"facebook.com",
+      "pay":"confidentiel",
       "user_type":"seeking_worker",
-      "score":"3",
+      "occupation":"loremipsum",
+      "score":"5",
       "image_url":"https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
       
     },{
         "user_id": "583c3ac3f38e84297c002547",
         "email": "test@test1.com",
         "password":"azerty",
-        "username": "test@test.com",
+        "username": "@test.com",
         "given_name": "Hello",
         "family_name": "Test",
         "city":"tunis",
-        
+        "pay":"confidentiel",
       "Phone":"95444444",
       "FacebookProfile":"facebook.com",
         "user_type":"seeking_worker",
+        "occupation":"loremipsum",
+
         "score":"4",
         "image_url":"https://media.istockphoto.com/id/1270893007/photo/profile-portrait-of-asian-male-engineer-phoning-in-factory.jpg?s=1024x1024&w=is&k=20&c=Q8Myl8rqFZ2vVMaO3kSoh3rzDNT7OLmsOL_Omt2ymPs="
         
@@ -32,41 +36,50 @@
         "user_id": "583c3ac3f38e84297c002548",
         "email": "test@test2.com",
         "password":"azerty",
-        "username": "test@test.com",
+        "username": "test",
         "given_name": "Hello",
         "family_name": "Test",
         "city":"sousse",
         "Phone":"95444444",
+        "pay":"confidentiel",
       "FacebookProfile":"facebook.com",
         "user_type":"seeking_work",
-        "score":"3",
+        "occupation":"loremipsum",
+
+        "score":"1",
         "image_url":"https://media.istockphoto.com/id/1345113252/photo/worker-using-hammer.jpg?s=1024x1024&w=is&k=20&c=5QBi9Xorg1aw9j00SFu-K1qo4VSDq1cdnHUZizIYdyM="
         
       },{
         "user_id": "583c3ac3f38e84297c002549",
         "email": "test@test3.com",
         "password":"azerty",
-        "username": "test@test.com",
+        "username": "ddd",
         "given_name": "Hello",
         "family_name": "Test",
         "city":"sousse",
         "Phone":"95444444",
+        "pay":"confidentiel",
       "FacebookProfile":"facebook.com",
         "user_type":"seeking_worker",
-        "score":"3",
+        "occupation":"loremipsum",
+
+        "score":"2",
         "image_url":"https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         
       },{
         "user_id": "583c3ac3f38e84297c002550",
         "email": "test@test4.com",
         "password":"azerty",
-        "username": "test@test.com",
+        "username": "ggjg",
         "given_name": "Hello",
         "family_name": "Test",
         "city":"sousse",
         "Phone":"95444444",
+        "pay":"confidentiel",
       "FacebookProfile":"facebook.com",
         "user_type":"seeking_worker",
+        "occupation":"loremipsum",
+
         "score":"3",
         "image_url":"https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         
@@ -74,28 +87,33 @@
         "user_id": "583c3ac3f38e84297c002551",
         "email": "test@test5.com",
         "password":"azerty",
-        "username": "test@test.com",
+        "username": "hjbdfvh",
         "given_name": "Hello",
         "family_name": "Test",
         "city":"sousse",
         "Phone":"95444444",
       "FacebookProfile":"facebook.com",
         "user_type":"seeking_worker",
-        "score":"3",
+        "pay":"confidentiel",
+        "occupation":"loremipsum",
+
+        "score":"1",
         "image_url":"https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         
       },{
         "user_id": "583c3ac3f38e84297c002552",
         "email": "test@test6.com",
         "password":"azerty",
-        "username": "test@test.com",
+        "username": "ali",
         "given_name": "Hello",
         "family_name": "Test",
         "city":"sousse",
         "Phone":"95444444",
-      "FacebookProfile":"facebook.com",
+        "FacebookProfile":"facebook.com",
         "user_type":"seeking_worker",
-        "score":"3",
+        "pay":"confidentiel",
+        "occupation":"loremipsum",
+        "score":"5",
         "image_url":"https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         
       }
