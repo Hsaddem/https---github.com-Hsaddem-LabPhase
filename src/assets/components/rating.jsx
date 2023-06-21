@@ -26,11 +26,11 @@ const customIcons = [
     label: 'Neutral',
   },
   {
-    icon: <SentimentSatisfiedAltIcon color="success" />,
+    icon: <SentimentSatisfiedAltIcon color="gold" />,
     label: 'Satisfied',
   },
   {
-    icon: <SentimentVerySatisfiedIcon color="gold" />,
+    icon: <SentimentVerySatisfiedIcon color= "success"/>,
     label: 'Very Satisfied',
   },
 ];
