@@ -27,12 +27,6 @@ setOpen(Open.map((e,i)=>(i==index?!e:e)));
 		setOpen(new Array(users.length).fill(false));
 	}, [users])
 
-
-    useEffect(()=>{
-		console.log('hah')
-	}, [Open])
-
-
     return (    <>
         {users.map((e,i)=>(
          <React.Fragment key={i}>

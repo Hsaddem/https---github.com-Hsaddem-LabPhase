@@ -10,7 +10,9 @@ import TablePaginationDemo from './pagination';
 import axios from "axios"
 import { useState,useEffect } from 'react';
 import TableContent from './tablerows';
+import Filter from './filter';
 export default function CollapsibleTable() {
+  const [openClose,setopenClose]=useState(false);
   const [users,setusers]= useState([]);
   const getData= async () => {
     await axios
@@ -26,24 +28,27 @@ export default function CollapsibleTable() {
   useEffect(() => {
     getData();
   }, []);
-  return (
+  return (<>     
+   <Filter openClose={openClose} setopenClose={setopenClose}/>
+  
     <TableContainer component={Paper}>
       <Table aria-label="collapsible table">
         <TableHead>
           <TableRow>
-            <TableCell />
+            <TableCell ></TableCell>
             <TableCell align="right"><h3>المستخدم</h3></TableCell>
             <TableCell align="right"><h3>إسم المستخدم</h3></TableCell>
             <TableCell align="right"> <h3>مجال الحرفة</h3></TableCell>
             <TableCell align="right"> <h3>الولاية</h3></TableCell>
             <TableCell align="right"> <h3>تقييم</h3></TableCell>
           </TableRow>
+         
         </TableHead>
-        <TableBody>
+           <TableBody>
       <TableContent users={users}/>
           </TableBody>
       </Table>
       <TablePaginationDemo/>
-    </TableContainer>
+    </TableContainer></>
   );
 }
