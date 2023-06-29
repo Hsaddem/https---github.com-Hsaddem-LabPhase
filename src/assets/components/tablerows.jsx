@@ -12,7 +12,7 @@ import TableCell from '@mui/material/TableCell';
 import Table from '@mui/material/Table';
 import TableHead from '@mui/material/TableHead';
 import TableBody from '@mui/material/TableBody';
-
+import { useSelector } from 'react-redux';
 import { useState,useEffect } from 'react';
 function TableContent({users}) {
     const [Open,setOpen]=useState([])
@@ -26,7 +26,7 @@ setOpen(Open.map((e,i)=>(i==index?!e:e)));
   useEffect(()=>{
 		setOpen(new Array(users.length).fill(false));
 	}, [users])
-
+console.log(useSelector(e=>e.UserPreferences))
     return (    <>
         {users.map((e,i)=>(
          <React.Fragment key={i}>

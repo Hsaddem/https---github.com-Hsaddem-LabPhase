@@ -5,3 +5,10 @@ export const GetUserProfile=(payload)=>
     }
        )
 }
+export const GetUserPreferences=(payload)=>
+{return(
+    {type:'GetUserPreferences',
+     payload:payload
+    }
+       )
+}
